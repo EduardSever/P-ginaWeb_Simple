@@ -19,6 +19,9 @@ import com.bytecode.core.model.Post;
 @Controller
 @RequestMapping("/home")
 public class ControllerBasic {
+	
+	//hola a todos registrando los cambios
+	
 	@Autowired
 	private PostComponent _postComponent;	
 	@GetMapping(path = {"/posts","/"})
