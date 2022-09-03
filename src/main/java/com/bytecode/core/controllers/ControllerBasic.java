@@ -51,6 +51,7 @@ public class ControllerBasic {
 		posts.add(post);
 		
 		model.addAttribute("posts", posts);
+		
 	return "index";
 	}
 }
